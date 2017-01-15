@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\converter-gson\2.0.0-beta4\de5935a367ba5e343e9df786ac8fc0c7d52b5f0c\converter-gson-2.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="de5935a367ba5e343e9df786ac8fc0c7d52b5f0c">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\converter-gson-2.0.0-beta4_835221c8e18121f523863b6da9879d0c5b34cfd6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-ui-25.1.0_3bbe0d8d9e98946539852bfadee644ebc660c4f3\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.4\695b63d702f505b9b916e02272e3b6381bade7f\gson-2.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0695b63d702f505b9b916e02272e3b6381bade7f">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\gson-2.4_f154a86be3112d56a8924f1986377fa7f0a6e773\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-vector-drawable-25.1.0_1235e0787af6fca77472a32ac7117dc8da98bb08\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\.gradle\caches\modules-2\files-2.1\com.github.PhilJay\MPAndroidChart\v2.2.3\f474798fde03291398b1a016118b9809a79550b7\MPAndroidChart-v2.2.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f474798fde03291398b1a016118b9809a79550b7">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\MPAndroidChart-v2.2.3_45716da253e296229de592a5712de9253ae0eff8\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-recyclerview-v7-25.1.0_4d158c1c7ddd845326172cb57c9983e2e4461be2\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.1.0\support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.1.0_a90b0eaac0574a80c7938cab97dbde224652705f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-v4-25.1.0_c5ea7c61ee20bb89031b2486cd6290e7beb60e17\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-compat-25.1.0_88597d3e43d8c7644847d21e1dd2664194de233c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.6.0\98476622f10715998eacf9240d6b479f12c66143\okio-1.6.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\okio-1.6.0_dbb62b0fa4133f7c3942fc979d0c6f95e32eedac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-appindexing-8.4.0_ac6158d65c72c34e24c71fa76105465fab508011\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-basement-8.4.0_86652157e54552115732820994b210b1a3fd09ba\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-media-compat-25.1.0_021ffc563d3013a700c3a1b6042db4bb4e2859e6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-core-utils-25.1.0_df49a7241f5cf89307645744e8d666856febcfdf\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8cb4eda75f929bba4921ce80db72f5a924eab2cc">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_b69379c9d0060d3848d1e86c98cc15db3a429fa6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.google.android.gms-play-services-base-8.4.0_34a1f2886c43fd93fe016e11a03f1a5fc771fa6a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\exploded-aar\com.android.volley\volley\1.0.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.volley-volley-1.0.0_44a13f493dbc9d1ad0f11fbe94c0b1a8da8db15a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-support-fragment-25.1.0_3e50281347caa1a19e57fbbf709ecca14df66998\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-animated-vector-drawable-25.1.0_8230ed96f486ab8e666f8b8d7f2d83317eeb26ae\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\.gradle\caches\modules-2\files-2.1\com.squareup.retrofit2\retrofit\2.0.0-beta4\739e00dea1f0ac04fdb9b6160d667e23cc50a791\retrofit-2.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="739e00dea1f0ac04fdb9b6160d667e23cc50a791">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\retrofit-2.0.0-beta4_9b088cefb6aebd74937d68998eead811f683b889\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\25.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-25.1.0_46b73ecc1dbe6a512c3c5142c9089f4baf276cbd\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="29c3dc328bfd86dd32a8414aff416756b153b9f9">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_87a2f563c52c52024cbe40f59e474fc19f03d1ac\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Nikola\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.0.1\b34c1f2d993044656e87f88970b6818e99e886ba\okhttp-3.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b34c1f2d993044656e87f88970b6818e99e886ba">
+        <dex dex="C:\Users\Nikola\AndroidStudioProjects\SmartHome2\app\build\intermediates\transforms\dex\debug\folders\1000\10\okhttp-3.0.1_1733560a8aa99950c7bd92ec82db6806d480bc38\classes.dex" />
+    </item>
+
+</items>

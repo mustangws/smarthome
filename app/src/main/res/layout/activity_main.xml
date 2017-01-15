@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context="smarthome.com.smarthome.Main.MainActivity">
+
+
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Grafovi"
+        android:id="@+id/Grafovi"
+        android:onClick="show"
+        android:background="@drawable/grafovi"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="400dp"
+         />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/datum"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_marginTop="30dp"
+        android:layout_below="@id/datum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        android:layout_centerHorizontal="true"/>
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Statistika"
+        android:id="@+id/Statistika"
+        android:onClick="show"
+        android:background="@drawable/statistika4"
+        android:layout_marginTop="400dp"
+        android:layout_toLeftOf="@id/Grafovi"
+        android:layout_marginRight="10dp"
+        />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="Postavke"
+        android:id="@+id/Postavke"
+        android:onClick="show"
+        android:background="@drawable/postavke"
+        android:layout_toRightOf="@id/Grafovi"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="400dp"
+        />
+
+
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:padding="2dp"
+    >
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:scrollbars="vertical"
+   >
+
+    <TextView
+        android:text="-"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/datumdo"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/pocetni"
+        android:layout_toLeftOf="@id/datumdo"
+        android:layout_marginTop="32dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="20sp"
+        />
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zavrsni"
+        android:layout_toRightOf="@id/datumdo"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20sp"
+        />
+
+    <ImageButton
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/calendar_final"
+        android:layout_toLeftOf="@id/pocetni"
+        android:layout_marginTop="30dp"
+        android:id="@+id/kalendarOd"
+        />
+
+    <ImageButton
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:background="@drawable/calendar_final"
+        android:layout_toRightOf="@id/zavrsni"
+        android:layout_marginTop="30dp"
+        android:id="@+id/kalendarDo"
+        />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/Toplina"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/heat_final"
+        android:layout_below="@id/zavrsni"
+        android:layout_centerHorizontal="true"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler"
+        android:scrollbars="none"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/Toplina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/Vlaga"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/moisture_final"
+        android:layout_below="@id/recycler"
+        android:layout_centerHorizontal="true"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler2"
+        android:scrollbars="none"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/Vlaga"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/Svjetlost"
+        android:background="@drawable/light_final"
+        android:layout_below="@id/recycler2"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler3"
+        android:scrollbars="none"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/Svjetlost"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        />
+</RelativeLayout>
+</ScrollView>
+    </LinearLayout>

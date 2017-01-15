@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Smart Home</string>
+    <string name="odaberi_interval">Odaberi interval:</string>
+    <string name="trenutni_interval">Trenutni interval: </string>
+    <string name="hint_poruka">Unesi URL </string>
+    <string name="url_enter">Potvrdi </string>
+    <string name="odaberi_pocetni_datum">Pocetni datum </string>
+    <string name="odaberi_zavrsni_datum">Zavrsni datum </string>
+    <string name="statistika">Statistika </string>
+    <string name="grafovi">Grafovi </string>
+    <string name="postavke">Postavke </string>
+    <string-array name="intervali">
+        <item>15 min</item>
+        <item>30 min</item>
+        <item>1 h</item>
+        <item>2 h</item>
+        <item>3 h</item>
+        <item>6 h</item>
+        <item>12 h</item>
+    </string-array>
+</resources>
