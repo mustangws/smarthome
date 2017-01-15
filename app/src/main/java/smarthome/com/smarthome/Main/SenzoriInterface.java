@@ -6,6 +6,6 @@ import retrofit2.http.GET;
 import retrofit2.http.Url;
 
 public interface SenzoriInterface {
-    @GET
-    Call<Senzori> getJSON(@Url String url);
+    @GET("sensors/")
+    Call<List<Senzori>> getAllSenzori();
 }
