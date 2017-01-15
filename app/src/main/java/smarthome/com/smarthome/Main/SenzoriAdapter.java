@@ -10,39 +10,43 @@ import java.util.ArrayList;
 
 import smarthome.com.smarthome.R;
 
-public class SenzoriAdapter extends RecyclerView.Adapter<SenzoriAdapter.ViewHolder>{
+public class SenzoriAdapter extends RecyclerView.Adapter<SenzoriAdapter.Holder>{
 
-    private ArrayList<Measurement> measurements;
+private List<Senzori> mSenzori;
 
-    @Override
-    public SenzoriAdapter.ViewHolder onCreateViewHolder(ViewGroup viewGroup, int i) {
-        View view = LayoutInflater.from(viewGroup.getContext()).inflate(R.layout.statistika_item, viewGroup, false);
-        return new ViewHolder(view);
+public SenzoriAdapter(){
+    mSenzori = new ArrayList<>();
+}
+
+@Override
+public Holder onCreateViewHolder(ViewGroup parent, int viewType) {
+    View row = LayoutInflater.from(parent.getContext()).inflate(R.layout.main_item, parent, false);
+    return new Holder(row);
+}
+
+@Override
+public void onBindViewHolder(Holder holder, int position) {
+    Senzori curr = mSenzori.get(position);
+    holder.senzoriType.setText(curr.getType());
+
+}
+
+@Override
+public int getItemCount() {
+    return mSenzori.size();
+}
+
+public void addSenzori(Senzori senzori) {
+    mSenzori.add(senzori);
+    notifyDataSetChanged();
+}
+
+
+public class Holder extends RecyclerView.ViewHolder {
+    private TextView senzoriType, senzoriLastAlive, senzoriMeasurement;
+    public Holder(View itemView) {
+        super(itemView);
+        senzoriType = (TextView) itemView.findViewById(R.id.senzoriType);
     }
-
-
-    @Override
-    public void onBindViewHolder(SenzoriAdapter.ViewHolder viewHolder, int i) {
-
-        String datum = measurements.get(i).getTime().replace('T',' ');
-        String vrijeme = datum.substring(0, datum.length()-4);
-        viewHolder.senzoriTime.setText(vrijeme);
-        String stringdouble= Double.toString(measurements.get(i).getValue());
-        viewHolder.senzoriValue.setText(stringdouble);
-    }
-
-    @Override
-    public int getItemCount() {
-        return measurements.size();
-    }
-
-    public class ViewHolder extends RecyclerView.ViewHolder{
-        private TextView senzoriTime,senzoriValue;
-        public ViewHolder(View view) {
-            super(view);
-            senzoriTime = (TextView)view.findViewById(R.id.senzorTime);
-            senzoriValue = (TextView)view.findViewById(R.id.senzorValue);
-
-        }
-    }
+}
 }
